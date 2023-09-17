@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, rgba(0,30,36,1) 0%, rgba(9,121,73,1) 35%, rgba(0,255,244,1) 100%);
+}
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+img{
+  width: 60px;
+}
+
+table{
+  width: 100%;
+  height: 80vh;
+  
+  border-collapse: collapse;
+  text-align: center;
+
+  margin-top: 60px;
+}
+
+th, td{
+  width: 250px;
+  height: 100px;
+
+  border: 1px solid black;
+}
+
+td:hover{
+
+  background-color: rgba(46, 255, 255, 0.507);
+
+  border: 2px solid black;
+}
